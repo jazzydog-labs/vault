@@ -1,7 +1,7 @@
 # Project Plan
 
 ## 1. Establish Repository
-- [ ] Create initial repo structure as outlined in `repo_structure.md`.
+- [x] Create initial repo structure as outlined in `repo_structure.md`.
 - [ ] Configure CI/CD for automatic version bumps and artifact storage.
 
 ## 2. Implement Schema Service
