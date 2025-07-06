@@ -1,0 +1,11 @@
+name: vault
+description: Canonical, read-only registry for secure storage
+type: registry
+remotes:
+  origin: https://github.com/jazzydog-labs/vault.git
+integration_quality:
+  documentation_completeness: good
+  bom_integration: complete
+  context_file_coverage: good
+  last_updated: "2025-01-27"
+  notes: "Secure storage registry for the foundry ecosystem" 
