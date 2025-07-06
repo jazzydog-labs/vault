@@ -1,8 +1,6 @@
-# Vault
+# Initial Repository Structure
 
-Canonical, read-only registry for schemas and code generation assets.
-
-## Repository Layout
+This design documents the directory layout for Vault. We adopt **Option B - Split Secrets** from `docs/brainstorm/repo_structure.md`.
 
 ```
 / (project root)
@@ -13,4 +11,4 @@ Canonical, read-only registry for schemas and code generation assets.
 └── tools/        # Helper scripts for management
 ```
 
-Secrets are stored in a separate repository. See `docs/design-repo-structure.md` for details.
+Secrets will live in a separate private repository. This keeps Vault focused on immutable artifacts like schemas and code generation assets.
